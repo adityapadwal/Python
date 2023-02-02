@@ -1,0 +1,65 @@
+# # Before typecasting 
+# a = input ("Enter the first number: ")
+# b = input ("Enter the second number: ")
+# print('The addition is: ',a + b)
+
+# ''' By default input() function accepts a 
+# string value
+# '''
+
+# # After typecasting 
+# a = int(input ("Enter the first number: "))
+# b = int(input ("Enter the second number: "))
+# print('The addition is: ',a + b)
+
+print('\n \n Integer Typecasting')
+print(int(3.14))
+# print(int(10+5j))
+print(int(True))
+print(int(False))
+# print(int('4.22'))
+print(int('4'))
+# print(int('Aditya'))
+
+print('\n \n Float Typecasting')
+print(float(3))
+# print(int(10+5j))
+print(float(True))
+print(float(False))
+print(float('4.22'))
+print(float('4'))
+# print(float('name'))
+
+print('\n \n Complex Typecasting')
+print(complex(3))
+print(complex(12.5))
+print(complex(True))
+print(complex(False))
+print(complex('3'))
+print(complex('3.45'))
+print(complex(3, 5))
+print(complex(True, False))
+
+print('\n \n Boolean Typecasting')
+print(bool(0))
+print(bool(15))
+print(bool(3.14))
+print(bool(0.0))
+print(bool(1+2j))
+print(bool(0+0j))
+print(bool(-1))
+print(bool(True))
+print(bool(False))
+print(bool(""))
+
+print('\n \n String Typecasting')
+print(str(0))
+print(str(15))
+print(str(3.14))
+print(str(0.0))
+print(str(1+2j))
+print(str(0+0j))
+print(str(-1))
+print(str(True))
+print(str(False))
+print(str(""))
